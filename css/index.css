@@ -1,3 +1,7 @@
 body {
-	background-color: tomato;
+	background-color: lightgrey;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1rem;
+	font-family: helvetica, arial, sans-serif;
 }
