@@ -6,21 +6,19 @@ This is a **placeholder** _document_.
 ## Meeting Notes: Sept 11, 2019
 
 ### Content List
-Here are some must haves:
-<!-- THIS IS JUST AN EXAMPLE!!!!! -->
 
 - Header
-  - Logo
-  - Menu
-  - Menu button
-- Student profiles
-  - Photo
-  - Quote
-  - Student Name
-  - Link to the student's personal site
-  - Icons that show what software was used
-- Course list
-- Success stories from alumni
+  - Program Description
+  - Courses list 
+  - Tuition fees
+  - Career Opportunities
+  - Why Interaction Design
+  - How to Apply - button that links directly
+
+Testimonials
+Applications that were using
+Instructor profiles
+Why you should hire our alumni
 - Footer
   - Copyright
   - Social media links
