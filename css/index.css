@@ -4,7 +4,7 @@ body {
 	font-style: normal;
 	font-size: 1rem;
 	font-family: helvetica, arial, sans-serif;
-
+}
 h1 {
 	color: #0336ff;
 	text-align: center
@@ -53,8 +53,7 @@ p {
 	background-color: var(--first-color);
 	color: var(--second-color);
   }
-  Result
-}
+
 h1 {
 	border-bottom: 0.125rem solid black;
 }
