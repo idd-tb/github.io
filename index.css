@@ -1,0 +1,193 @@
+body{
+    background-color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #333333;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+h2 {
+    border-bottom: solid;
+    border-color: #005293;
+  }
+
+/* HEADER */
+
+.item7 { grid-area: logo; }
+.item8 { 
+    grid-area: title; 
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: Helvetica;
+    color: white;
+    padding-top: 52px;
+}
+
+.grid-header {
+    display: grid;
+    grid-template-areas:
+      'logo title title title title title';
+    background-color: #005293;
+  }
+  
+  .grid-header > div {
+    background-color: #005293;
+    text-align: left;
+  }
+  
+  .logo{
+    width: 200px;
+    height: auto;
+    padding: 20px 10px 0px 20px;
+}
+
+.firstpic{
+    max-width: 97vw;
+    height: auto;
+    align-items: center;
+}
+
+/* NAVIGATION */
+
+.nav {
+    background-color: #005293;
+    overflow: hidden;
+}
+
+.nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Helvetica;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    background-color: white;
+    color: #005293;
+}
+
+/* STUDENT PROFILE */
+
+.student{
+    background-color: white;
+    font-size: 11px;
+}
+
+.item1 { grid-area: spic; }
+.item2 { grid-area: sname; }
+.item3 { grid-area: sdes; }
+
+.grid-student {
+    display: grid;
+    grid-template-areas:
+      'spic sname sname sname sname sname'
+      'spic sdes sdes sdes sdes sdes';
+    background-color: white;
+  }
+  
+  .grid-student > div {
+    background-color: white;
+    text-align: left;
+    font-size: 12px;
+  }
+  
+  .studentpic{
+    max-width: 40vw;
+    height: auto;
+    padding: 15px 10px 0px 0px;
+}
+
+/* DESCRIPTION */
+.description{
+    background-color: white;
+    font-size: 11px;
+}
+
+/* CAREERS */
+.careers{
+    background-color: white;
+    font-size: 11px;
+}
+
+.grid-careers {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 15px;
+    background-color: white;
+    padding: 15px;
+  }
+  
+  .grid-careers > div {
+    background-color: white;
+    border: 1px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+/* COURSES */
+.courses{
+    background-color: white;
+    font-size: 11px;
+}
+
+.grid-courses {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .grid-courses > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    text-align: left;
+    font-size: 10px;
+  }
+
+/* ALUMNI */
+.alumni{
+    background-color: white;
+    font-size: 11px;
+}
+
+.item4 { grid-area: apic; }
+.item5 { grid-area: aname; }
+.item6 { grid-area: ades;}
+
+.grid-alumni {
+    display: grid;
+    grid-template-areas:
+      'apic aname aname aname aname aname'
+      'apic ades ades ades ades ades';
+    background-color: white;
+  }
+  
+  .grid-alumni > div {
+    background-color: white;
+    text-align: left;
+    font-size: 12px;
+  }
+  
+  .alumnipic{
+    width: 40vw;
+    height: auto;
+    padding: 15px 10px 0px 0px;
+}
+
+hr {
+    color: #005293;
+    background-color: #005293;
+    border: none;
+}
+
+.doc-footer{
+    font-family: Helvetica;
+    font-size: 12px;
+}

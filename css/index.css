@@ -1,64 +1,157 @@
+body{
+    background-color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333333;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+h2 {
+    box-sizing: border-box;
+    width: 100%;
+    border: 8px solid blue;
+    float: left;
+  }
+
+/* HEADER */
+
+.thing3 { grid-area: logo;
+background-color: cornsilk;
+}
+div {
+    display: block;
+}
 body {
-	background-color: rgb(10, 184, 241);
-	font-weight: m;
-	font-style: normal;
-	font-size: 1rem;
-	font-family: helvetica, arial, sans-serif;
-}
-h1 {
-	color: #0336ff;
-	text-align: center
+    background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333
+    
 }
 
-p {
-	font-size: 30%
+ 
+.thing1 { 
+    grid-area: title; 
+    font-size: 2.5vw;
+    font-weight: bolder;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    font-family: Helvetica;
+    color: black;
+    padding: 0vw;
 }
 
-#intro {
-	background-color: blue;
-}
-
-.first {
-	font-size: 200%
-}
-
-#intro  .first {
-	color: black;
-
-}
-
-#intro .first em {
-	color: #ffde03;
-}
-:root {
-	--first-color: #0336ff;
-	--second-color: #ffde03;
+.grid-header {
+    display:block ;
+    grid-template-areas: ;
+    background-color: #005293;
   }
   
-  #firstParagraph {
-	background-color: var(--first-color);
-	color: var(--second-color);
+  .grid-header > div {
+    background-color: #005293;
+    text-align: right;
+    font-size: 3vw;
   }
   
-  #secondParagraph {
-	background-color: var(--second-color);
-	color: var(--first-color);
+  .logo{
+    width: 15vw;
+    height: right;
+    padding: 1vw 1vw 0vw 1vw;
+    
+}
+
+.firstpic{
+    max-width: 99vw;
+    height: auto;
+    align-items: center;
+}
+
+/* NAVIGATION */
+
+.nav {
+    background-color: #005293;
+    overflow: hidden;
+}
+
+.nav a {
+    float: left;
+    color: yellow;
+    text-align: center;
+    padding: 2vw 2vw;
+    text-decoration: none;
+    font-family: Helvetica;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    background-color: yellow;
+    color: #005293;
+}
+
+/* ABOUT */
+.description{
+    background-color: yellow;
+    font-size: 12vw;
+    padding: 2vw;
+}
+/* COURSES */
+.courses{
+    background-color: yellow;
+    font-size: 1vw;
+}
+
+.grid-courses {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 2vw;
+    background-color: yellow;
+    padding: 2vw;
   }
   
-  #container {
-	--first-color: #f8f5f5;
-  }
-  
-  #thirdParagraph {
-	background-color: var(--first-color);
-	color: var(--second-color);
+  .grid-courses > div {
+    background-color: yellow;
+    border: 1vw;
+    text-align: center;
+    font-size: 3vw;
   }
 
-h1 {
-	border-bottom: 0.125rem solid black;
-}
-.title {
-	text-align: center;
-	background-color: #0336ff;
-	line-height: 2;
-}
+/* JOBS */
+table {
+    width: 100%;
+  }
+  
+  th {
+    height: 50px;
+  }
+
+/* TOP STUDENTS */
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 20vw;
+  }
+  
+  div.gallery:hover {
+    border: 1vw solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding:7vw;
+    text-align: center;
+  }
+
+/* Footer */
+.footer {
+  
+    padding: 33vw;
+    float: left;
+  }
