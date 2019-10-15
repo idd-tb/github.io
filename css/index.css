@@ -45,7 +45,6 @@ body {
 
 .grid-header {
     display:block ;
-    grid-template-areas: ;
     background-color: #005293;
   }
   
